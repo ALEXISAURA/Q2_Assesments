@@ -2,6 +2,16 @@
   "cells": [
     {
       "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ALEXISAURA/Q2_Assesments/blob/main/Q2_FA2_MAHOGANY_BARNIEGO\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
       "id": "14fae4ed",
       "metadata": {
         "id": "14fae4ed"
@@ -255,24 +265,63 @@
     },
     {
       "cell_type": "code",
+      "execution_count": null,
+      "id": "TjpSXW6kkQxR",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "TjpSXW6kkQxR",
+        "outputId": "60692f67-d610-40e0-f2f7-218b83d2ff01"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "1 \t 2 \t 3 \t 4 \t 5 \t 6 \t 7 \t 8 \t 9 \t 10 \t "
+          ]
+        }
+      ],
       "source": [
         "#Mini Challenge #1 Print numbers from 1 through 10.\n",
         "\n",
         "#type your code here\n",
         "\n",
-        "print(\"number 1 parameters: range(start, stop)\")\n",
-        "for number in range(1, 11):\n",
-        "  print(number)"
-      ],
-      "metadata": {
-        "id": "TjpSXW6kkQxR"
-      },
-      "id": "TjpSXW6kkQxR",
-      "execution_count": null,
-      "outputs": []
+        "\n",
+        "for number in range(1,11):\n",
+        "  print(number,end=\" \\t \")"
+      ]
     },
     {
       "cell_type": "code",
+      "execution_count": null,
+      "id": "OuITAq9JkXqw",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "OuITAq9JkXqw",
+        "outputId": "05b06b07-2013-4fa1-b5b8-245388b2e5c3"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "number 2 parameters: range(start, stop, step)\n",
+            "1\n",
+            "3\n",
+            "5\n",
+            "7\n",
+            "9\n",
+            "11\n",
+            "13\n"
+          ]
+        }
+      ],
       "source": [
         "#Mini Challenge #2 Print odd numbers from 1 through 15.\n",
         "\n",
@@ -280,18 +329,40 @@
         "#type your code here\n",
         "\n",
         "print(\"number 2 parameters: range(start, stop, step)\")\n",
-        "for number in range(1, 16, 2):\n",
+        "for number in range(1, 15, 2):\n",
         "  print(number)"
-      ],
-      "metadata": {
-        "id": "OuITAq9JkXqw"
-      },
-      "id": "OuITAq9JkXqw",
-      "execution_count": null,
-      "outputs": []
+      ]
     },
     {
       "cell_type": "code",
+      "execution_count": null,
+      "id": "PLBy-9v4kacQ",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "PLBy-9v4kacQ",
+        "outputId": "052b0638-b695-435a-f787-60a53a3ccb8e"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "number 3 parameters: range(start, stop, step)\n",
+            "10\n",
+            "9\n",
+            "8\n",
+            "7\n",
+            "6\n",
+            "5\n",
+            "4\n",
+            "3\n",
+            "2\n"
+          ]
+        }
+      ],
       "source": [
         "#Mini Challenge #3 Count backward from 10 to 1.\n",
         "\n",
@@ -299,15 +370,9 @@
         "#type your code here\n",
         "\n",
         "print(\"number 3 parameters: range(start, stop, step)\")\n",
-        "for number in range(10, 0, -1):\n",
+        "for number in range(10, 1, -1):\n",
         "  print(number)"
-      ],
-      "metadata": {
-        "id": "PLBy-9v4kacQ"
-      },
-      "id": "PLBy-9v4kacQ",
-      "execution_count": null,
-      "outputs": []
+      ]
     },
     {
       "cell_type": "markdown",
@@ -332,8 +397,8 @@
       "outputs": [],
       "source": [
         "# break: stop when number reaches 4or number in range(1, 8):\n",
-        "    if number == 4:\n",
-        "        break\n",
+        "  if number == 4:\n",
+        "    break\n",
         "    print(number)\n",
         "\n",
         "print(\"The loop stopped.\")"
@@ -394,8 +459,8 @@
       },
       "outputs": [
         {
-          "output_type": "stream",
           "name": "stdout",
+          "output_type": "stream",
           "text": [
             "Row 1, Seat 1\n",
             "Row 1, Seat 2\n",
@@ -475,19 +540,19 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 46,
+      "execution_count": null,
       "id": "f15f0440",
       "metadata": {
-        "id": "f15f0440",
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "background_save": true
         },
-        "outputId": "b1290edb-43d2-49d4-be80-e7608777ba7e"
+        "id": "f15f0440",
+        "outputId": "0f183cee-d97b-4567-bc02-71a1076c7442"
       },
       "outputs": [
         {
-          "output_type": "stream",
           "name": "stdout",
+          "output_type": "stream",
           "text": [
             "10\n",
             "0\n"
@@ -500,7 +565,7 @@
         "        raise ValueError(\"limit must be a non-negative integer\")\n",
         "    return limit * (limit + 1) // 2\n",
         "\n",
-        "# This will now only print the results for 4 and 0\n",
+        "\n",
         "result1 = get_sum(4)\n",
         "print(result1)  # Outputs: 10\n",
         "\n",
@@ -630,9 +695,31 @@
       "execution_count": null,
       "id": "6114dc74",
       "metadata": {
-        "id": "6114dc74"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6114dc74",
+        "outputId": "97b62f1a-819e-444a-81ce-6be61a9ee8ae"
       },
-      "outputs": [],
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "1\n",
+            "2\n",
+            "4\n",
+            "7\n",
+            "8\n",
+            "11\n",
+            "13\n",
+            "14\n",
+            "16\n",
+            "17\n",
+            "19\n"
+          ]
+        }
+      ],
       "source": [
         "def skip_multiples(limit):\n",
         "\n",
@@ -714,6 +801,10 @@
     },
     {
       "cell_type": "markdown",
+      "id": "JRjjfJWjxu7t",
+      "metadata": {
+        "id": "JRjjfJWjxu7t"
+      },
       "source": [
         "# Reflection:\n",
         "answer here\n",
@@ -721,16 +812,13 @@
         "\n",
         "I like for loops best because they are simple. You give them a clear start and stop point, and they do the work. With a while loop, it is easy to make a mistake and accidentally make the loop run forever.\n",
         "                                                                                                                                                                                                                                                                                                                                                                                    "
-      ],
-      "metadata": {
-        "id": "JRjjfJWjxu7t"
-      },
-      "id": "JRjjfJWjxu7t"
+      ]
     }
   ],
   "metadata": {
     "colab": {
-      "provenance": []
+      "provenance": [],
+      "include_colab_link": true
     },
     "kernelspec": {
       "display_name": "Python 3",
